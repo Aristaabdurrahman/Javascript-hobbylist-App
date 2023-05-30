@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="text" placeholder="masukan hobi anda" id="hobbyinput">
+    <input type="button" value="Submit" id="hobbyinputBTN" onclick="inputdata()">
+    <div>
+        <h5 id="hobbylist"></h5>
+        <!--<li class="hobbylist"></li>-->
+    </div>
+
+    <input type="text" placeholder="hapus list" id="hobbyDelete">
+    <input type="button" value="Hapus" onclick="del()">
+    <br>
+    <br>
+    <input type="number" placeholder ="from" id="from">
+    <input type="number" placeholder ="to" id="to">
+    <input type="button" value="Switch" id="SwitchBTN" onclick="Switch()">
+
+    <script src="main.js"></script>
+</body>
+</html>
